@@ -1,6 +1,7 @@
 <?php
   session_start();
   include_once 'app/app.php';
+  include_once 'function/model.php';
 ?>
 <!DOCTYPE html>
 <html>
@@ -24,29 +25,29 @@
     <section class="wrapper">
       <div class="w3-col s12 m4">
         <div class="widget-holder w3-center">
-          <i class="material-icons md-48">monetization_on</i>
-          <div class="text-large">$1023</div>
-          <div class="meduim"> Total Sales </div>
+          <i class="material-icons md-48">email</i>
+          <div class="text-large"><?php echo $model->countAllFunc($conn, "ivy_contact"); ?></div>
+          <div class="meduim"> Total Contacts </div>
          </div>
       </div>
       <div class="w3-col s12 m4">
         <div class="widget-holder w3-center">
-          <i class="material-icons md-48">group</i>
-          <div class="text-large">100+</div>
-          <div class="meduim"> Total Users </div>
+          <i class="material-icons md-48">mode_edit</i>
+          <div class="text-large"><?php echo $model->countAllFunc($conn, "ivy_blog"); ?></div>
+          <div class="meduim"> Total Blog Posts </div>
          </div>
       </div>
       <div class="w3-col s12 m4">
         <div class="widget-holder w3-center">
-          <i class="material-icons md-48">bubble_chart</i>
-          <div class="text-large">20</div>
-          <div class="meduim"> New Request </div>
+          <i class="material-icons md-48">insert_photo</i>
+          <div class="text-large"><?php echo $model->countAllFunc($conn, "ivy_gallery"); ?></div>
+          <div class="meduim"> Total Gallery Uploads </div>
          </div>
       </div>
       <div class="w3-container">
         <div class="w3-col s12 m12">
           <div class="widget-holder-fluid">
-            <div class="text-small">100+</div>
+            <div class="text-small">Newest Message From Contact</div>
            </div>
         </div>
       </div>

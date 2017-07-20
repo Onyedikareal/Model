@@ -20,5 +20,5 @@ define('PORT', '8888');
   $developerusername = $loginArray[2][0];
   $developerpassword = $loginArray[2][1];
 
-  $sitename = "Ediye";
+  $sitename = "Obrori Ivy";
 ?>
