@@ -82,7 +82,7 @@ p {
 /*-- banner --*/
 .banner_text_w3layouts {
     text-align: center;
-    padding: 16.5em 0;
+    padding: 9em 0;
 }
 .banner_text_w3layouts h3 {
 	color: #fff;
@@ -1216,6 +1216,17 @@ a.fa.fa-dribbble.icon.icon-border.dribbble:hover {
 	filter: alpha(opacity=0);
 }
 /*-- //slider-up-arrow --*/
+/*-- //blog code --*/
+.blog-wrap {
+	display: block;
+	vertical-align: top;
+	height: auto;
+	min-height: 300px;
+	width: 90%;
+	margin: 3% 5% 4%;
+	background-color: #e9e9e9;
+	border-radius: 3px;
+}
 /* -- Responsive code -- */
 @media screen and (max-width: 1280px){
 	.contact-right-w3l {

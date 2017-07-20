@@ -1,0 +1,14 @@
+# Protect My Directories
+Options -Indexes
+
+# Protect my htaccess file
+<Files .htaccess>
+order deny,allow
+deny from all
+</Files>
+
+RewriteEngine On
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteRule ^([^.]+)$ $1.php [NC,L]
+
+# ErrorDocument 404 http://localhost:8888/model/404

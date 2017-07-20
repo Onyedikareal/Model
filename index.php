@@ -98,7 +98,7 @@
 </div>
 <!-- menu -->
 <?php
-	$uri['home'] = "agile_active";
+	$url['home'] = "agile_active";
 	include_once 'menu.php';
 ?>
 <!-- //menu -->

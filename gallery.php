@@ -38,7 +38,7 @@
 <div class="w3_banner">
   <!-- menu -->
   <?php
-  	$uri['home'] = "agile_active";
+  	$url['gallery'] = "agile_active";
   	include_once 'menu.php';
   ?>
   <!-- //menu -->
@@ -47,7 +47,6 @@
 <!-- gallery -->
 <div class="gallery_wthree" id="gallery">
  <div class="container">
-      <h3 class="title">gallery</h3>
 	  <div class="gallery_grid agileits_w3layouts">
 	    <div class="col-md-6  col-sm-6 col-xs-6 grid_w3">
 			<div class="grid-1">
@@ -64,7 +63,7 @@
 							<img src="images/14.jpg" alt=" " class="img-responsive" />
 							<div class="w3agile-text w3agile-text-small">
 								<h5>Snap shot</h5>
-					        </div>
+					    </div>
 						</a>
 					</div>
 				   <div class="col-md-6 col-sm-6 col-xs-6 grid-1 grid-b grid_w3l">

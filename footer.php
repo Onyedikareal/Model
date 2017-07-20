@@ -3,3 +3,4 @@
 		<p> &copy; Copyright <?php echo date('Y'); ?> Obrori Ivy. All rights reserved | Design by <a href="https://www.greencycle.com">GreenCycle</a></p>
 	</div>
 </div>
+<script src="<?php echo BASE_URL . "js/ajax.js" ?>"></script>
